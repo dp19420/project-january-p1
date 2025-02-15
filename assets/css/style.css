@@ -1,10 +1,10 @@
 /* Google font import */
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;1,400&display=swap");
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 /* General styles */
 
@@ -12,187 +12,172 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-
-
-
+  
     /*General project styles */
     color: black;
-    background-color: #C4A484;
-    font-family: 'Rubik', sans-serif;
-
-    h1, h2, h3 {
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        color:black;
-        
-        
-    }
-
-}
+    background-color: #c4a484;
+    font-family: "Rubik", sans-serif;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: black;
+  }
 /*  Header */
 
-header { color:beige; background-color: black; 
-    padding: 0 1rem;
-    position: fixed;
-    z-index: 99;
-    box-shadow: 0 3px 2px 	#faebd7;
-    min-width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+header {
+  color: beige;
+  background-color: black;
+  padding: 0 1rem;
+  position: fixed;
+  z-index: 99;
+  box-shadow: 0 3px 2px #faebd7;
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 header a {
-    text-decoration: none;
-    color: inherit;
-    display:flex;
-    align-items: baseline;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: baseline;
 }
 
 /* Main */
 
-main { color:black;
-flex: 1 0 auto;
-margin-top: 74px;}
-
+main {
+  color: black;
+  flex: 1 0 auto;
+  margin-top: 74px;
+}
 
 /* Hero */
 #hero {
-    height: 600px;
-    width: 100%;
-    background: url("../images/narmer.webp") no-repeat center center/cover;
-    position: relative;
+  height: 600px;
+  width: 100%;
+  background: url("../images/narmer.webp") no-repeat center center/cover;
+  position: relative;
 }
 #cover-text {
-    background-color: lightgrey;
-    opacity: 0.6;
-    font-size: 200%;
-    position: absolute;
-    bottom: 30px;
-    right: 30px;
-    padding-top: 5px;
-    width: 80%;
-    min-height: 100px;
-    padding-left: 10px;
-
+  background-color: lightgrey;
+  opacity: 0.6;
+  font-size: 200%;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  padding-top: 5px;
+  width: 80%;
+  min-height: 100px;
+  padding-left: 10px;
 }
 #introduction {
-    margin: auto;
+  margin: auto;
 }
 
 #introduction > h2 {
-    font-size: 280%;
-    margin-left: 20px;
-    margin-right: 20px;
-   
+  font-size: 280%;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 /* Footer */
 
-footer {background-color: rgb(95, 91, 99);
+footer {
+  background-color: rgb(95, 91, 99);
 }
-
-
-
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
-
 #menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-    list-style-type: none;
+  font-size: 110%;
+  letter-spacing: 4px;
+  list-style-type: none;
 }
 
 #menu li {
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 .active {
-    color:chocolate
+  color: chocolate;
 }
 #social-links {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
 }
 #social-links i {
-        font-size: 300%;
-        padding: 5%;
-        color: #faebd7;
-
+  font-size: 300%;
+  padding: 5%;
+  color: #faebd7;
 }
 /* navbar styles with dropdown */
 
 nav {
-    position:absolute;
-    background-color: black;
-    min-width: 100%;
-    padding: 0 1rem;
-    box-shadow: 0 3px 2px 	#faebd7;
-    left: 0;
-    display: none;
-    top:100%;
-
+  position: absolute;
+  background-color: black;
+  min-width: 100%;
+  padding: 0 1rem;
+  box-shadow: 0 3px 2px #faebd7;
+  left: 0;
+  display: none;
+  top: 100%;
 }
 /*Nav toggle */
-#nav-toggle:checked~nav {
-    display:block;
+#nav-toggle:checked ~ nav {
+  display: block;
 }
 #nav-toggle {
-    display: none;
+  display: none;
 }
 .nav-toggle-label {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 /* Media query: tablets and larger 768px and up*/
-@media screen and (min-width: 768px){
-    /*Header*/
-    nav {
-        display: block;
-        position: relative;
-        box-shadow:none;
-        width: fit-content;
-        padding-right: 1rem;
-        
-
-
-    }
-    #menu {
-        display:flex;
-    }
-    #menu > li {
-        padding-left: 2rem;
-    } 
-    .nav-toggle-label {
-        display: none;
-    }
-    #logo {
-        font-size: 250%;
-        line-height: 75px;
-        margin: 0 0.5rem;
-    }
-    main {
-        margin-top: 150px;
-    }
-    #cover-text {
-        width: 300px;
-    }
+@media screen and (min-width: 768px) {
+  /*Header*/
+  nav {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+  }
+  #menu {
+    display: flex;
+  }
+  #menu > li {
+    padding-left: 2rem;
+  }
+  .nav-toggle-label {
+    display: none;
+  }
+  #logo {color:#c4a484;
+    font-size: 250%;
+    line-height: 75px;
+    margin: 0 0.5rem;
+  }
+  main {
+    margin-top: 150px;
+  }
+  #cover-text {
+    width: 300px;
+  }
 }
 /* Media query: laptops and larger 992px and up*/
-@media screen and (min-width: 992px){
-
-#menu a:hover {
-    color:chocolate;
-
-}
+@media screen and (min-width: 992px) {
+  #menu a:hover {
+    color: chocolate;
+  }
 }
 #link-logo {
-    width: 50px; /* Match the size of the Wikipedia logo */
-    height: auto; /* Maintain aspect ratio */
-    display: inline-block;
+  width: 50px; /* Match the size of the Wikipedia logo */
+  height: auto; /* Maintain aspect ratio */
+  display: inline-block;
 }
