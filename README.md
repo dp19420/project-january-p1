@@ -67,6 +67,7 @@ Running it throu Lighthouse in the Google Devs tools to check acessability score
 
 - CSS code tested and clear via [W3 CSS Validator](https://jigsaw.w3.org/css-validator/)
 + CSS
+
 ![W3 test css](assets/images/readme/w3-css.png)
 
 ## Deployment
