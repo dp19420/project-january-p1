@@ -23,12 +23,12 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: black;
+    
   }
 /*  Header */
 
 header {
-  color: beige;
+  color:#c4a484;
   background-color: black;
   padding: 0 1rem;
   position: fixed;
