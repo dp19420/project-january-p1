@@ -40,6 +40,15 @@ Why have i created this site?
 - Functional logo link for Wikipedia, the world history logo works in preview but not yet in deployed for some reason i cant figure out yet.
 - opens on new blank tab
 
+## User stories
+
+- As a first-time visitor, I want to understand the purpose of the website so that I can decide if it is relevant to my interests.
+
+- As a user, I want to easily navigate between different sections of the website so that I can find the information or features I need without confusion.
+
+- As a mobile user, I want the website to display correctly on my phone or tablet so that I can access all content and features on any device.
+
+- As a casual visitor, I want to see images and explanations of the Narmer Palette so that I can visualize how Narmer’s rule and unification are depicted in ancient artifacts
 
 ## Testing
 I have tested the links and screen size adjustments on google chrome on pc and android.
@@ -69,6 +78,14 @@ Running it throu Lighthouse in the Google Devs tools to check acessability score
 + CSS
 
 ![W3 test css](assets/images/readme/w3-css.png)
+
+# Project Wireframes
+
+Below are the wireframes for the main sections of the project:
+
+![Home Wireframe](assets/images/readme/Wirehome.png)
+![Bio Wireframe](assets/images/readme/wirebio.png)
+![Links Wireframe](assets/images/readme/wirelinks.png)
 
 ## Deployment
 
